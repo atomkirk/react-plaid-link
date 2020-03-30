@@ -29,7 +29,7 @@ export const usePlaidLink = (options: PlaidLinkOptions) => {
 
   useEffect(() => {
     // If the link.js script is still loading, return prematurely
-    if (loading) {
+    if (loading || !options.onSuccess) {
       return;
     }
 

@@ -48,7 +48,7 @@ export type PlaidLinkOptions =
   } |
   CommonPlaidLinkOptions & {
     // Specify an item add token to launch link in normal mode.
-    // 
+    //
     // Specify an existing user's public token to launch Link in update mode.
     // This will cause Link to open directly to the authentication step for
     // that user's institution.
